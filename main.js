@@ -157,7 +157,7 @@ function getMean(arr) {
     sum += currentNum
   }
     mean = sum / arr.length;
-    return mean.fixTo(2)
+    return mean.toFixed(2)
 
 
 //Get mode funcion ============================================================
