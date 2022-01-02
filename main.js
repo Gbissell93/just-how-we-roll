@@ -64,7 +64,7 @@ six.src = changeImage(roll)
 const mean = getMean(sixes);
 const mode = getMode(sixes);
 const median = getMedian(sixes);
-d6Mean.innerText = mean;
+d6Mean.innerText = mean.fixTo(2);
 d6Median.innerText = median;
 d6Mode.innerText = mode;
 }
